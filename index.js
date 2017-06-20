@@ -24,7 +24,7 @@ var app = express();
 app.use(morgan('common'));
 
 app.get('/', function (req, res) {
-  res.send('Hello Docker World, JP!\n');
+  res.send('XXXXXXXXXXX!\n');
 });
 
 app.get('/healthz', function (req, res) {
